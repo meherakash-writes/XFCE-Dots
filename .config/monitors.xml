@@ -1,0 +1,60 @@
+<monitors version="2">
+  <configuration>
+    <logicalmonitor>
+      <x>0</x>
+      <y>0</y>
+      <scale>1</scale>
+      <primary>yes</primary>
+      <monitor>
+        <monitorspec>
+          <connector>HDMI1</connector>
+          <vendor>XMD</vendor>
+          <product>Mi Tv</product>
+          <serial>0x00000001</serial>
+        </monitorspec>
+        <mode>
+          <width>1920</width>
+          <height>1080</height>
+          <rate>30.000</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+    <disabled>
+      <monitorspec>
+        <connector>eDP1</connector>
+        <vendor>HPN</vendor>
+        <product>HP ALL-in-One</product>
+        <serial>MV215FHM-N60</serial>
+      </monitorspec>
+    </disabled>
+  </configuration>
+  <configuration>
+    <logicalmonitor>
+      <x>0</x>
+      <y>0</y>
+      <scale>1</scale>
+      <primary>yes</primary>
+      <monitor>
+        <monitorspec>
+          <connector>HDMI-1</connector>
+          <vendor>XMD</vendor>
+          <product>Mi Tv</product>
+          <serial>0x00000001</serial>
+        </monitorspec>
+        <mode>
+          <width>1920</width>
+          <height>1080</height>
+          <rate>30.000</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+    <disabled>
+      <monitorspec>
+        <connector>eDP-1</connector>
+        <vendor>HPN</vendor>
+        <product>HP ALL-in-One</product>
+        <serial>MV215FHM-N60</serial>
+      </monitorspec>
+    </disabled>
+  </configuration>
+</monitors>
